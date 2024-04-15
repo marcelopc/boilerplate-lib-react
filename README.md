@@ -1,30 +1,41 @@
-# React + TypeScript + Vite
+# Boilerplate para Lib React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descrição
 
-Currently, two official plugins are available:
+Este é um boilerplate para criar bibliotecas React. Ele vem pré-configurado com ferramentas como Vite, TypeScript, ESLint, Storybook e outros para facilitar o desenvolvimento e a construção de bibliotecas React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Instalação
 
-## Expanding the ESLint configuration
+Para começar a usar este boilerplate, você pode clonar este repositório e instalar as dependências:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```bash
+git clone <url-do-repositório>
+cd boilerplate
+npm install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Scripts disponíveis
+
+-   `npm run dev`: Inicia o servidor de desenvolvimento Vite.
+-   `npm run build`: Compila o código TypeScript e gera uma versão de produção.
+-   `npm run lint`: Executa o ESLint para verificar e corrigir problemas no código.
+-   `npm run preview`: Inicia um servidor de pré-visualização Vite para o código de produção.
+-   `npm run rollup`: Executa o Rollup para gerar um pacote de distribuição.
+-   `npm run storybook`: Inicia o Storybook para visualizar componentes.
+-   `npm run build-storybook`: Compila o Storybook para produção.
+-   `npm test`: Executa os testes.
+
+## Tecnologias utilizadas
+
+-   React
+-   Styled Components
+-   Vite
+-   TypeScript
+-   ESLint
+-   Storybook
+-   Jest
+-   e outras
+
+## Licença
+
+Este projeto está sob a licença MIT.
