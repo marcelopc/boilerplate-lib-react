@@ -33,7 +33,7 @@ npm install
 -   TypeScript
 -   ESLint
 -   Storybook
--   Jest
+-   Vitest
 -   e outras
 
 ## Licença
